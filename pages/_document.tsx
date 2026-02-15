@@ -75,7 +75,7 @@ export default function Document() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }}
         />
            {/* Google Translate Init Script */}
-           {/* <script 
+           <script 
           type="text/javascript" 
           dangerouslySetInnerHTML={{
             __html: `
@@ -88,7 +88,7 @@ export default function Document() {
             `
           }}
         />
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> */}
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       </Head>
       <body>
         <Main />

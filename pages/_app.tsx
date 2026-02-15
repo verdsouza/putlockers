@@ -19,14 +19,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     const loadAdScripts = () => {
 
       // Load first ad script
-      // const adScript1 = document.createElement('script');
-      // adScript1.innerHTML = `(function(s){s.dataset.zone='10612392',s.src='gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
-      // document.head.appendChild(adScript1);
+      const adScript1 = document.createElement('script');
+      adScript1.innerHTML = `(function(s){s.dataset.zone='10612669',s.src='gizokraijaw.net/vignette.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
+      document.head.appendChild(adScript1);
 
       // Load second ad script
-      // const adScript2 = document.createElement('script');
-      // adScript2.innerHTML = `(function(s){s.dataset.zone='10612390',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
-      // document.head.appendChild(adScript2);
+      const adScript2 = document.createElement('script');
+      adScript2.innerHTML = `(function(s){s.dataset.zone='10612668',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))`;
+      document.head.appendChild(adScript2);
 
        // Load third ad script
     // <script src="https://quge5.com/88/tag.min.js" data-zone="211370" async data-cfasync="false"></script>
